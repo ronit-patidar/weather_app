@@ -1,0 +1,67 @@
+.search-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 2rem;
+}
+
+.search-box .MuiTextField-root {
+  width: 100%;
+  background: #ffffff;
+  border-radius: 12px;
+}
+
+.search-box .MuiOutlinedInput-root {
+  border-radius: 12px;
+  font-family: 'Inter', sans-serif;
+}
+
+.search-box .MuiOutlinedInput-root fieldset {
+  border-color: #dde3ec;
+  border-width: 1.5px;
+}
+
+.search-box .MuiOutlinedInput-root:hover fieldset {
+  border-color: #93aed6;
+}
+
+.search-box .MuiOutlinedInput-root.Mui-focused fieldset {
+  border-color: #4a7fd4;
+  border-width: 2px;
+}
+
+.search-box .MuiInputLabel-root.Mui-focused {
+  color: #4a7fd4;
+}
+
+.search-box .MuiButton-root {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 12px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 0.95rem;
+  text-transform: none;
+  background: #4a7fd4;
+  box-shadow: none;
+  letter-spacing: 0;
+}
+
+.search-box .MuiButton-root:hover {
+  background: #3a6bbf;
+  box-shadow: none;
+}
+
+.error-msg {
+  font-size: 0.85rem;
+  color: #e53e3e;
+  background: #fff5f5;
+  border: 1px solid #fed7d7;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  text-align: center;
+}
